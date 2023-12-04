@@ -6,26 +6,40 @@ html {
   height: 100%;
 }
 
-.menu {
-    width: 300px;
-    margin: auto;
-    border: 1px solid black;
-    padding: 20px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
-.menu h1 {
-    margin-bottom: 20px;
+header {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
 }
 
 .menu ul {
     list-style: none;
+    margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .menu ul li {
-    margin-bottom: 10px;
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
     font-size: 18px;
+    padding: 15px 20px;
+    display: block;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
 }
 
 body {
